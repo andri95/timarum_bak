@@ -11,6 +11,6 @@ export const client = connect(URI, (err: any) => {
     if (err){
         console.log(err.message);
     } else {
-        console.log('Connected!');
+        console.log('Connected! - server');
     }
 });
