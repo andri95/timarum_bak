@@ -16,5 +16,5 @@ export const makerSchema = new Schema({
     description: {type: String, required: true}
 });
 
-const Maker = model<makerInterface>('Maker', makerSchema);
+const Maker = model<makerInterface>('makers', makerSchema);
 export default Maker;
